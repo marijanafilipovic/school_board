@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbd268b5-dadd-48ef-b184-c94a2bbf7c8d" name="Default Changelist" comment="" />
+    <list default="true" id="bbd268b5-dadd-48ef-b184-c94a2bbf7c8d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,12 +22,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Url_parsing" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
     </include_path>
   </component>
   <component name="ProjectId" id="1yljsMHqp110sjA6LsnseyK2LFF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,6 +53,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\school_board" />
       <recent name="C:\wamp\www\school_board\Board" />
     </key>
   </component>
@@ -57,12 +71,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632833274757</updated>
-      <workItem from="1632833275916" duration="13193000" />
+      <workItem from="1632833275916" duration="16254000" />
     </task>
+    <task id="LOCAL-00001" summary="URL setup">
+      <created>1632848615780</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1632848615780</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Upload DB file to DB brunch">
+      <created>1632848977157</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1632848977157</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="URL setup" />
+    <MESSAGE value="Upload DB file to DB brunch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upload DB file to DB brunch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

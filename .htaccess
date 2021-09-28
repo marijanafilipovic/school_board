@@ -1,3 +1,3 @@
 Options +FollowSymLinks
 RewriteEngine on
-RewriteRule ^([a-zA-Z]*)/?([a-zA-Z]*)?/?([a-zA-Z0-9=&]*)?/?$ index.php?student=$1&student_id
+RewriteRule ^([a-zA-Z0-9=&]*)?/?$ index.php?student=$1
