@@ -1,7 +1,9 @@
 <?php
+namespace App;
 
+  use PDO;
 
-  class DBconnect
+  class DBconn
   {
       private static $instance;
       private $conn;
@@ -18,7 +20,7 @@
     public static function getInstance()
     {
         if(!self::$instance){
-          self::$instance = new DBconnect();
+          self::$instance = new DBconn();
         /*   $className = __CLASS__;
           self::$instance = new $className;*/
         }

@@ -1,9 +1,9 @@
 <?php
-namespace Board;
-use Board\BoardAbstract;
- require 'Board/BoradAbstruct.php';
+namespace App\Board;
 
-class CSM extends  BoardAbstract
+use App\Board\BoardAbstract as BoardAbstract;
+
+class CSM extends   BoardAbstract
 {
 public function getResult(array $grades){
 
@@ -13,11 +13,12 @@ public function getResult(array $grades){
     //var_dump($avg);
     if($avg >= 7){
         return $avg='PASS';
-    }elseif($avg <= 7){
+    }elseif($avg < 7){
 
         return $avg= 'FAIL';
     }else{
-        json_encode($grades);
+       return json_encode($grades);
     }
+
 }
 }

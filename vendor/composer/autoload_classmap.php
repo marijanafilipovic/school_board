@@ -6,4 +6,10 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Board\\BoardAbstract' => $baseDir . '/App/Board/BoradAbstract.php',
+    'App\\Board\\BoardFactory' => $baseDir . '/App/Board/BoardFactory.php',
+    'App\\Board\\CSM' => $baseDir . '/App/Board/CSM.php',
+    'App\\Board\\CSMB' => $baseDir . '/App/Board/CSMB.php',
+    'App\\DBconnect' => $baseDir . '/App/DBconn.php',
+    'App\\Student' => $baseDir . '/App/Student.php',
 );

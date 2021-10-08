@@ -10,11 +10,13 @@
     }
   ],
   "require": {
+"ext-json": "*"
   },
   "autoload": {
-    "classmap": ["lib"],
-    "psr-0": {
-      "schoolBoard\\": "vendor/composer/"
+    "psr-4":  {
+      "" : "App/"
     }
+
+
   }
 }

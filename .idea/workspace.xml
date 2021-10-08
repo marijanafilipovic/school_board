@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbd268b5-dadd-48ef-b184-c94a2bbf7c8d" name="Default Changelist" comment="" />
+    <list default="true" id="bbd268b5-dadd-48ef-b184-c94a2bbf7c8d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/App/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Student.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/school_board.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/school_board.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/BoardFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Board/BoardFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/BoradAbstruct.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Board/BoradAbstract.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/CSM.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Board/CSM.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/CSMB.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Board/CSMB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DBconn.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/DBconn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,12 +38,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
     </include_path>
   </component>
   <component name="ProjectId" id="1yljsMHqp110sjA6LsnseyK2LFF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,12 +72,6 @@
       <recent name="C:\wamp\www\school_board\Board" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
-      <option name="pathToComposerJson" value="$PROJECT_DIR$/composer.json" />
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,16 +86,5 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/Board/BoardFactory.php</url>
-          <line>5</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

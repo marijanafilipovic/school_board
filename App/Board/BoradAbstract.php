@@ -1,5 +1,5 @@
 <?php
-namespace Board;
+namespace App\Board;
 
 abstract class BoardAbstract
 {
