@@ -1,6 +1,6 @@
 <?php
-namespace Board;
-use Board\BoardAbstract;
+namespace App\Board;
+use App\Board\BoardAbstract as BoardAbstract;
 
 class CSMB extends BoardAbstract
 {
@@ -13,7 +13,7 @@ public function getResult(array $grades)
     //var_dump($avg);
     if(count($a) > 2 )
     {
-        if(max($a) > 8 ){
+        if(max($a) >= 8 ){
             return $avg='PASS';
         }else{
             return 'FAIL';
@@ -26,7 +26,7 @@ public function getResult(array $grades)
 
             return $avg= 'FAIL';
         }else{
-            json_encode($grades);
+           return json_encode($grades);
         }
     }
 
